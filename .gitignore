@@ -1,0 +1,23 @@
+# Never add private financial inputs or account-specific state.
+private/
+personal/
+imports/
+reports/
+backups/
+outputs/
+.openai/
+.env
+.env.*
+!.env.example
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.sqlite
+*.sqlite3
+*.db
+*.pem
+*.key
+node_modules/
+.DS_Store
+*.log
